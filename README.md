@@ -61,3 +61,7 @@
 ![](drop1.PNG)
 
 ![](drop2.PNG)
+
+**Application class diagram**
+
+![](classDia.png)
