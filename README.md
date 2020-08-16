@@ -23,7 +23,7 @@
 
 - DROP TABLE employees;
 
-** Sample run**
+**Sample run**
 
 - Creating table
 
