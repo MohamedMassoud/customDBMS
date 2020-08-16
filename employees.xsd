@@ -1,0 +1,21 @@
+<?xml version = "1.0"?>
+
+<xs:schema xmlns:xs = "http://www.w3.org/2001/XMLSchema">
+   <xs:element name = 'employees'>
+      <xs:complexType>
+         <xs:sequence>
+             <xs:element name = 'name' type = 'NameType' minOccurs = '0' 
+                maxOccurs = 'unbounded' />
+         </xs:sequence>
+      </xs:complexType>
+   </xs:element>
+
+   <xs:complexType name = "NameType">
+
+         <xs:attribute name = "RowCount" type = "xs:integer" use = "optional"/>
+         <xs:attribute name = "name" type = "xs:string" use = "optional"/>
+         <xs:attribute name = "address" type = "xs:string" use = "optional"/>
+         <xs:attribute name = "age" type = "xs:integer" use = "optional"/>
+         <xs:attribute name = "salary" type = "xs:integer" use = "optional"/>
+   </xs:complexType>			 
+</xs:schema>
