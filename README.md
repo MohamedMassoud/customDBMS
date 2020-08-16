@@ -10,8 +10,11 @@
 **Anti-features**
 
 1- Perfect example of spaghetti code.
+
 2- Lack of design patterns and OOP.
+
 3- SQL queries are not flexible due limited usage of regular expressions.
+
 
 **Example for acceptable queries:**
 
